@@ -23,22 +23,22 @@ FrozenLake-v1 is a grid-world reinforcement learning environment where an agent 
 
 The environment consists of:
 
-*S* – Start State
-*F* – Frozen Surface (Safe)
-*H* – Hole (Terminal State)
-*G* – Goal State
+- *S* – Start State
+- *F* – Frozen Surface (Safe)
+- *H* – Hole (Terminal State)
+- *G* – Goal State
 
 Possible Actions:
 
-Left (0)
-Down (1)
-Right (2)
-Up (3)
+- Left (0)
+- Down (1)
+- Right (2)
+- Up (3)
 
 Rewards:
 
-Goal = +1
-All other states = 0
+<p>Goal = +1</p>
+<p>All other states = 0</p>
 
 
 
