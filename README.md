@@ -11,11 +11,11 @@ To implement the **Value Iteration** algorithm for solving a finite Markov Decis
 Implement the Value Iteration algorithm on the FrozenLake-v1 environment using the Gymnasium library. The objective is to iteratively compute the optimal value function and derive the optimal policy that maximizes the expected cumulative reward.
 
 ## Software Requirements
-<p>Python 3.x</p>
-Gymnasium
-NumPy
-Matplotlib
-Jupyter Notebook / Google Colab / VS Code
+- Python 3.x
+- Gymnasium
+- NumPy
+- Matplotlib
+- Jupyter Notebook / Google Colab / VS Code
 
 
 ## Environment Description
@@ -23,10 +23,10 @@ FrozenLake-v1 is a grid-world reinforcement learning environment where an agent 
 
 The environment consists of:
 
-S – Start State
-F – Frozen Surface (Safe)
-H – Hole (Terminal State)
-G – Goal State
+*S* – Start State
+*F* – Frozen Surface (Safe)
+*H* – Hole (Terminal State)
+*G* – Goal State
 
 Possible Actions:
 
@@ -49,11 +49,11 @@ An MDP is represented by the tuple
 ```
 where
 
-S = Set of states
-A = Set of actions
-P = Transition probability
-R = Reward function
-γ = Discount factor
+- S = Set of states
+- A = Set of actions
+- P = Transition probability
+- R = Reward function
+- γ = Discount factor
 
 ## Theory
 Value Iteration is a Dynamic Programming algorithm used to determine the optimal value function for every state.
