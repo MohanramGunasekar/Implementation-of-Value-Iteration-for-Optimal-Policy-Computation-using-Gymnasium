@@ -148,10 +148,9 @@ env_desc = [
 ---
 
 ## Result
-```text
+
 The Value Iteration algorithm was successfully implemented using the Gymnasium FrozenLake-v1 environment. The optimal state-value function and the corresponding optimal policy were obtained using the Bellman Optimality Equation.
 
-```
 ---
 
 ## Inference
