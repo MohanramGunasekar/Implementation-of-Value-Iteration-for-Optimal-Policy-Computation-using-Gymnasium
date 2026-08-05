@@ -11,7 +11,7 @@ To implement the **Value Iteration** algorithm for solving a finite Markov Decis
 Implement the Value Iteration algorithm on the FrozenLake-v1 environment using the Gymnasium library. The objective is to iteratively compute the optimal value function and derive the optimal policy that maximizes the expected cumulative reward.
 
 ## Software Requirements
-Python 3.x
+<p>Python 3.x</p>
 Gymnasium
 NumPy
 Matplotlib
